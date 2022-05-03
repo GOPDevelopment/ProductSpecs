@@ -1,0 +1,39 @@
+﻿body {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    color: #0c641c;
+    background-color: white;
+}
+
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    border: hidden,inset,thick;
+    color: white;
+    background-color: #0c641c;
+    padding: 4px;
+}
+
+ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black
+}
+
+ul.navbar a {
+    text-decoration: none
+}
+
+a:link {
+    color: blue
+}
+
+a:visited {
+    color: purple
+}
+
+address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted
+}

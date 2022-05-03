@@ -150,6 +150,10 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="GOP\GOPStyles.css" />
+    <Content Include="GOP\MainSpecs.aspx" />
+    <Content Include="Images\gopcow.png" />
+    <Content Include="Images\GOPLogo.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -207,6 +211,13 @@
     </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GOP\MainSpecs.aspx.designer.vb">
+      <DependentUpon>MainSpecs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GOP\MainSpecs.aspx.vb">
+      <DependentUpon>MainSpecs.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
