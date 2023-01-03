@@ -21,7 +21,7 @@
             <asp:Button ID="btnSearch" runat="server" Text="Search" Width="88px" />
             <br />
             <br />
-            <asp:ListBox ID="lstSearchResults" runat="server" Width="50%" BackColor="#CCCCCC" EnableTheming="True" Rows="10"></asp:ListBox>
+            <asp:ListBox ID="lstSearchResults" runat="server" Width="50%" BackColor="#CCCCCC" EnableTheming="True" Rows="10" AutoPostBack="True"></asp:ListBox>
             <br />
             <br />
 

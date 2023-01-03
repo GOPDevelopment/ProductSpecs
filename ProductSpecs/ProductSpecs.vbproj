@@ -195,6 +195,7 @@
       <DependentUpon>About.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Classes\AllClasses.vb" />
     <Compile Include="Contact.aspx.designer.vb">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
