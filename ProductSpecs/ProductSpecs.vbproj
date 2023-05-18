@@ -154,6 +154,7 @@
     <Content Include="GOP\MainSpecs.aspx" />
     <Content Include="Images\gopcow.png" />
     <Content Include="Images\GOPLogo.jpg" />
+    <Content Include="GOP\Pictures.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -196,6 +197,7 @@
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Classes\AllClasses.vb" />
+    <Compile Include="Classes\CommonStuff.vb" />
     <Compile Include="Contact.aspx.designer.vb">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
@@ -238,6 +240,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GOP\Pictures.aspx.designer.vb">
+      <DependentUpon>Pictures.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GOP\Pictures.aspx.vb">
+      <DependentUpon>Pictures.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">
       <DependentUpon>Site.Master</DependentUpon>
