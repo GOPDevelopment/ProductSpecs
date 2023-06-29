@@ -60,10 +60,10 @@ Public Class ProductInfo
     Public Property Primary_BagId As String
     Public Property Secondary_BagID As String
     Public Property DTS As String
-    Public Property primary_photo As String
-    Public Property secondary_photo As String
-    Public Property box_wght_Label_photo As String
-    Public Property Box_label_photo As String
+    Public Property primary_photo As Integer
+    Public Property secondary_photo As Integer
+    Public Property box_wght_Label_photo As Integer
+    Public Property Box_label_photo As Integer
 
 
 

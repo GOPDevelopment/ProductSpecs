@@ -77,6 +77,42 @@ Partial Public Class Pictures
     Protected WithEvents uploadTable As Global.System.Web.UI.WebControls.Table
     
     '''<summary>
+    '''FileUpload1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents FileUpload1 As Global.System.Web.UI.WebControls.FileUpload
+    
+    '''<summary>
+    '''Button1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
+    
+    '''<summary>
+    '''lblMessage control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblMessage As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''updateInfo control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents updateInfo As Global.System.Web.UI.WebControls.Table
+    
+    '''<summary>
     '''btnUpdateSelection control.
     '''</summary>
     '''<remarks>
@@ -86,11 +122,4961 @@ Partial Public Class Pictures
     Protected WithEvents btnUpdateSelection As Global.System.Web.UI.WebControls.Button
     
     '''<summary>
-    '''gvImages control.
+    '''tableImages control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents gvImages As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents tableImages As Global.System.Web.UI.WebControls.Table
+    
+    '''<summary>
+    '''tr1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr1 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc1_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc1_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l1 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary1 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary1 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional1 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel1 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel1 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive1 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc1_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc1_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image1 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr2 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc2_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc2_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l2 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary2 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary2 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional2 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel2 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel2 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive2 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc2_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc2_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image2 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr3 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr3 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc3_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc3_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l3 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l3 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary3 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary3 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary3 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary3 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional3 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional3 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel3 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel3 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel3 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel3 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive3 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive3 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc3_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc3_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image3 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image3 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr4 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr4 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc4_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc4_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l4 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l4 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary4 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary4 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary4 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary4 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional4 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional4 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel4 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel4 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel4 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel4 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive4 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive4 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc4_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc4_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image4 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image4 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr5 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr5 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc5_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc5_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l5 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l5 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary5 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary5 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary5 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary5 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional5 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional5 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel5 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel5 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel5 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel5 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive5 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive5 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc5_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc5_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image5 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image5 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr6 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr6 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc6_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc6_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l6 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l6 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary6 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary6 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary6 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary6 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional6 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional6 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel6 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel6 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel6 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel6 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive6 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive6 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc6_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc6_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image6 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image6 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr7 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr7 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc7_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc7_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l7 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l7 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary7 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary7 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary7 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary7 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional7 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional7 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel7 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel7 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel7 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel7 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive7 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive7 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc7_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc7_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image7 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image7 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr8 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr8 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc8_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc8_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l8 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l8 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary8 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary8 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary8 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary8 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional8 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional8 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel8 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel8 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel8 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel8 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive8 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive8 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc8_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc8_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image8 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image8 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr9 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr9 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc9_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc9_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l9 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l9 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary9 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary9 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary9 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary9 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional9 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional9 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel9 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel9 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel9 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel9 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive9 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive9 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc9_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc9_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image9 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image9 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr10 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr10 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc10_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc10_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l10 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l10 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary10 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary10 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary10 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary10 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional10 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional10 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel10 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel10 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel10 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel10 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive10 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive10 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc10_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc10_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image10 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image10 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr11 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr11 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc11_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc11_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l11 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l11 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary11 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary11 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary11 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary11 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional11 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional11 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel11 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel11 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel11 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel11 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive11 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive11 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc11_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc11_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image11 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image11 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr12 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr12 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc12_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc12_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l12 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l12 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary12 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary12 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary12 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary12 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional12 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional12 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel12 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel12 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel12 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel12 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive12 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive12 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc12_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc12_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image12 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image12 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr13 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr13 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc13_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc13_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l13 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l13 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary13 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary13 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary13 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary13 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional13 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional13 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel13 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel13 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel13 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel13 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive13 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive13 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc13_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc13_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image13 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image13 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr14 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr14 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc14_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc14_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l14 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l14 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary14 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary14 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary14 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary14 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional14 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional14 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel14 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel14 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel14 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel14 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive14 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive14 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc14_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc14_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image14 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image14 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr15 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr15 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc15_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc15_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l15 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l15 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary15 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary15 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary15 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary15 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional15 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional15 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel15 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel15 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel15 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel15 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive15 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive15 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc15_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc15_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image15 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image15 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr16 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr16 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc16_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc16_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l16 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l16 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary16 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary16 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary16 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary16 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional16 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional16 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel16 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel16 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel16 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel16 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive16 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive16 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc16_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc16_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image16 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image16 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr17 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr17 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc17_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc17_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l17 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l17 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary17 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary17 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary17 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary17 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional17 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional17 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel17 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel17 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel17 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel17 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive17 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive17 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc17_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc17_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image17 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image17 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr18 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr18 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc18_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc18_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l18 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l18 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary18 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary18 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary18 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary18 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional18 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional18 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel18 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel18 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel18 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel18 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive18 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive18 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc18_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc18_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image18 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image18 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr19 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr19 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc19_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc19_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l19 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l19 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary19 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary19 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary19 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary19 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional19 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional19 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel19 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel19 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel19 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel19 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive19 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive19 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc19_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc19_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image19 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image19 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr20 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr20 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc20_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc20_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l20 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l20 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary20 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary20 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary20 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary20 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional20 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional20 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel20 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel20 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel20 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel20 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive20 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive20 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc20_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc20_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image20 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image20 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr21 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr21 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc21_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc21_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l21 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l21 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary21 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary21 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary21 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary21 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional21 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional21 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel21 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel21 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel21 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel21 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive21 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive21 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc21_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc21_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image21 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image21 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr22 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr22 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc22_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc22_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l22 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l22 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary22 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary22 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary22 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary22 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional22 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional22 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel22 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel22 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel22 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel22 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive22 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive22 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc22_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc22_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image22 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image22 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr23 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr23 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc23_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc23_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l23 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l23 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary23 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary23 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary23 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary23 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional23 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional23 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel23 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel23 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel23 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel23 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive23 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive23 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc23_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc23_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image23 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image23 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr24 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr24 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc24_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc24_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l24 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l24 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary24 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary24 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary24 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary24 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional24 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional24 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel24 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel24 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel24 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel24 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive24 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive24 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc24_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc24_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image24 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image24 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr25 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr25 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc25_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc25_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l25 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l25 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary25 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary25 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary25 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary25 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional25 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional25 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel25 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel25 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel25 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel25 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive25 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive25 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc25_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc25_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image25 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image25 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr26 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr26 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc26_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc26_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l26 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l26 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary26 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary26 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary26 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary26 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional26 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional26 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel26 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel26 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel26 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel26 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive26 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive26 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc26_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc26_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image26 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image26 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr27 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr27 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc27_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc27_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l27 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l27 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary27 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary27 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary27 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary27 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional27 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional27 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel27 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel27 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel27 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel27 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive27 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive27 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc27_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc27_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image27 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image27 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr28 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr28 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc28_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc28_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l28 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l28 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary28 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary28 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary28 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary28 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional28 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional28 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel28 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel28 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel28 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel28 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive28 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive28 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc28_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc28_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image28 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image28 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr29 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr29 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc29_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc29_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l29 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l29 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary29 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary29 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary29 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary29 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional29 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional29 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel29 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel29 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel29 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel29 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive29 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive29 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc29_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc29_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image29 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image29 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr30 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr30 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc30_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc30_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l30 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l30 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary30 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary30 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary30 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary30 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional30 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional30 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel30 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel30 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel30 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel30 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive30 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive30 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc30_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc30_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image30 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image30 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr31 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr31 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc31_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc31_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l31 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l31 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary31 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary31 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary31 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary31 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional31 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional31 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel31 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel31 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel31 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel31 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive31 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive31 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc31_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc31_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image31 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image31 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr32 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr32 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc32_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc32_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l32 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l32 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary32 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary32 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary32 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary32 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional32 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional32 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel32 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel32 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel32 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel32 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive32 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive32 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc32_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc32_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image32 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image32 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr33 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr33 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc33_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc33_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l33 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l33 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary33 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary33 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary33 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary33 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional33 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional33 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel33 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel33 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel33 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel33 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive33 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive33 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc33_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc33_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image33 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image33 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr34 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr34 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc34_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc34_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l34 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l34 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary34 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary34 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary34 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary34 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional34 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional34 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel34 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel34 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel34 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel34 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive34 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive34 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc34_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc34_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image34 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image34 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr35 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr35 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc35_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc35_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l35 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l35 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary35 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary35 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary35 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary35 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional35 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional35 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel35 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel35 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel35 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel35 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive35 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive35 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc35_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc35_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image35 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image35 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr36 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr36 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc36_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc36_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l36 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l36 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary36 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary36 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary36 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary36 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional36 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional36 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel36 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel36 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel36 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel36 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive36 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive36 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc36_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc36_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image36 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image36 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr37 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr37 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc37_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc37_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l37 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l37 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary37 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary37 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary37 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary37 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional37 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional37 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel37 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel37 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel37 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel37 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive37 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive37 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc37_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc37_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image37 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image37 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr38 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr38 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc38_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc38_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l38 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l38 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary38 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary38 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary38 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary38 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional38 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional38 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel38 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel38 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel38 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel38 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive38 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive38 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc38_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc38_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image38 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image38 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr39 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr39 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc39_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc39_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l39 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l39 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary39 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary39 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary39 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary39 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional39 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional39 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel39 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel39 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel39 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel39 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive39 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive39 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc39_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc39_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image39 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image39 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr40 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr40 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc40_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc40_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l40 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l40 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary40 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary40 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary40 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary40 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional40 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional40 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel40 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel40 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel40 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel40 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive40 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive40 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc40_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc40_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image40 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image40 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr41 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr41 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc41_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc41_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l41 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l41 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary41 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary41 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary41 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary41 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional41 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional41 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel41 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel41 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel41 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel41 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive41 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive41 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc41_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc41_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image41 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image41 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr42 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr42 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc42_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc42_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l42 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l42 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary42 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary42 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary42 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary42 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional42 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional42 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel42 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel42 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel42 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel42 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive42 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive42 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc42_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc42_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image42 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image42 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr43 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr43 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc43_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc43_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l43 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l43 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary43 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary43 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary43 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary43 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional43 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional43 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel43 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel43 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel43 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel43 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive43 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive43 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc43_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc43_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image43 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image43 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr44 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr44 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc44_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc44_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l44 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l44 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary44 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary44 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary44 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary44 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional44 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional44 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel44 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel44 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel44 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel44 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive44 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive44 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc44_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc44_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image44 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image44 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr45 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr45 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc45_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc45_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l45 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l45 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary45 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary45 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary45 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary45 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional45 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional45 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel45 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel45 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel45 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel45 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive45 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive45 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc45_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc45_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image45 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image45 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr46 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr46 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc46_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc46_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l46 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l46 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary46 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary46 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary46 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary46 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional46 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional46 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel46 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel46 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel46 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel46 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive46 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive46 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc46_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc46_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image46 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image46 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr47 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr47 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc47_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc47_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l47 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l47 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary47 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary47 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary47 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary47 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional47 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional47 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel47 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel47 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel47 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel47 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive47 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive47 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc47_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc47_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image47 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image47 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr48 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr48 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc48_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc48_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l48 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l48 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary48 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary48 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary48 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary48 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional48 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional48 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel48 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel48 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel48 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel48 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive48 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive48 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc48_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc48_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image48 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image48 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr49 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr49 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc49_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc49_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l49 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l49 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary49 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary49 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary49 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary49 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional49 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional49 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel49 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel49 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel49 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel49 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive49 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive49 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc49_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc49_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image49 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image49 As Global.System.Web.UI.WebControls.Image
+    
+    '''<summary>
+    '''tr50 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tr50 As Global.System.Web.UI.WebControls.TableRow
+    
+    '''<summary>
+    '''tc50_1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc50_1 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''l50 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l50 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''primary50 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents primary50 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''secondary50 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents secondary50 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''additional50 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents additional50 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxweightlabel50 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxweightlabel50 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''boxlabel50 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents boxlabel50 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''archive50 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents archive50 As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''tc50_2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tc50_2 As Global.System.Web.UI.WebControls.TableCell
+    
+    '''<summary>
+    '''image50 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents image50 As Global.System.Web.UI.WebControls.Image
 End Class

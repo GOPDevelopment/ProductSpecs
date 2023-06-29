@@ -34,6 +34,13 @@ Module CommonStuff
             Return 0
         End If
     End Function
+    Function FixNullString(ByVal szValue)
+        If IsDBNull(szValue) Then
+            Return ""
+        Else
+            Return szValue.ToString
+        End If
+    End Function
     Function CheckBit(ByVal b As Boolean, ByVal endchar As String)
         If b Then
             Return "1" & endchar
@@ -80,6 +87,12 @@ Module CommonStuff
         Return sReturn
     End Function
 
+
+    Public Function RemoveIllegalFileNameChars(input As String, Optional replacement As String = "") As String
+        Dim regexSearch = New String(Path.GetInvalidFileNameChars()) & New String(Path.GetInvalidPathChars())
+        Dim r = New Regex(String.Format("[{0}]", Regex.Escape(regexSearch)))
+        Return r.Replace(input, replacement)
+    End Function
 
     'Sub CleanWorkFolder(tempWorkFolder As String, ByVal machineInfo As String)
     '    Dim OldFiles() As String = Directory.GetFiles(Environment.CurrentDirectory & tempWorkFolder, "*.palco.lbl*")
